@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>Loading...</p>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Harsh Srivastava</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Harsh Srivastava</h1>
+                <p class="subtitle">Web Developer | Aspiring Programmer</p>
+                <p class="description">Building modern web experiences with HTML, CSS, and JavaScript</p>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a beginner in programming with basic knowledge of front-end development and data entry. I completed
+                my 12th grade from Government Inter College, Deoria. I am currently focusing on improving my computer
+                and technical skills. I'm passionate about coding and technology, and I enjoy learning how websites are
+                built and how computers work. My goal is to improve my programming skills, gain practical experience,
+                and build useful projects that can help people and grow my career in the technology field.
+            </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>2+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>4+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p>Dedicated</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Currency Convertor</h3>
+                        <p>A real-time currency converter application that instantly converts between multiple
+                            currencies with current exchange rates. Features include real-time data fetching, support
+                            for 150+ world currencies, simple and intuitive user interface, and instant conversion
+                            results. Built using JavaScript for dynamic calculations, this tool is perfect for
+                            travelers, traders, and anyone who needs quick currency conversions without leaving their
+                            browser.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Harshhsrivastava/CurrencyConvertor" class="btn btn-secondary"
+                            target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>An engaging and interactive Rock Paper Scissors game built with vanilla JavaScript that lets
+                            you challenge the computer. Features include a responsive design that works on all devices,
+                            instant game results with score tracking, random computer AI for unpredictable gameplay, and
+                            a clean, intuitive interface with visual feedback. Great for casual entertainment and
+                            showcases core game logic implementation and DOM manipulation skills.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Harshhsrivastava/RockPaperScissorsRepo" class="btn btn-secondary"
+                            target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Password Generator</h3>
+                        <p>A powerful random password generator tool that creates secure, customizable passwords with a
+                            single click. Features include adjustable length, character options (uppercase, lowercase,
+                            numbers, symbols), and one-click copy functionality. Perfect for creating strong passwords
+                            for all your online accounts and keeping your security in check.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Harshhsrivastava/PassworodGenerator" class="btn btn-secondary"
+                            target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Pizza Website</h3>
+                        <p>A modern, fully responsive pizza restaurant website that showcases delicious menu items with
+                            detailed descriptions and pricing. The site features an attractive homepage, complete menu
+                            catalog, special offers section, and contact information. Built with a mobile-first approach
+                            to ensure seamless browsing on all devices - from smartphones to desktops.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Harshhsrivastava/pizza-web-project" class="btn btn-secondary"
+                            target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Concepts</h3>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>Responsive Design</li>
+                        <li>Web Design</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Expertise Areas</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Web Development</li>
+                        <li>Learning New Technologies</li>
+                        <li>Data Entry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always excited to connect with like-minded developers and explore new opportunities! Whether you have
+                a project in mind, want to collaborate, or just want to discuss web development and technology - I'd
+                love to hear from you. Let's create something amazing together! 🚀</p>
+            <div class="contact-links">
+                <a href="mailto:harshh.org@gmail.com" class="contact-link">Email Me</a>
+                <a href="https://www.linkedin.com/in/harsh-srivastava-394b3a2b2?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    class="contact-link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Harshhsrivastava/" class="contact-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Harsh Srivastava. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
